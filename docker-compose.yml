@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  myapp:
+    image: 'fauria/lamp'
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html
